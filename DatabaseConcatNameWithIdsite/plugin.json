@@ -1,0 +1,13 @@
+{
+    "name": "DatabaseConcatNameWithIdsite",
+    "description": "change database connection name and host name",
+    "version": "1",
+    "authors": [
+        {
+            "name": "Optitrack Team"
+        }
+    ],
+    "license": "Optimove Company TM",
+    "keywords": ["Database change"],
+    "homepage": "http://www.optimove.com"
+}
