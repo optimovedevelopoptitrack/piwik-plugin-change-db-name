@@ -1,0 +1,13 @@
+{
+    "name": "OptimoveMultiDBSupport",
+    "description": "Multi Database support: - change database connection name and host name",
+    "version": "1.1",
+    "authors": [
+        {
+            "name": "Optimove Optitrack Team"
+        }
+    ],
+    "license": "Optimove Company TM",
+    "keywords": ["Multi Database support"],
+    "homepage": "http://www.optimove.com"
+}
