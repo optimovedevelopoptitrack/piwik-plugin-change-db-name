@@ -45,7 +45,6 @@ class OptimoveMultiDBSupport extends \Piwik\Plugin
             
             $url = @parse_url($request[0]);
             if (!empty($url['query'])) {
-             //   die(var_dump($url['query']));
                 @parse_str($url['query'], $params);
                 $dbConfig['dbname'] .= '_'.$params['idsite'];
 				$dbConfig['host'] = 'optitrackSQLSrvr_location_'.$params['idsite'].'.optimove.net';
@@ -55,7 +54,6 @@ class OptimoveMultiDBSupport extends \Piwik\Plugin
         }
 
         if(isset($_GET['idsite'])){
-            echo 'inside get';
             $dbConfig['dbname'] .= '_'.$_GET['idsite'];
 			$dbConfig['host'] = 'optitrackSQLSrvr_location_'.$_GET['idsite'].'.optimove.net';
         }
@@ -66,7 +64,6 @@ class OptimoveMultiDBSupport extends \Piwik\Plugin
      */
     public function getRawBulkRequest()
     {
-        // die('get bulk');
         return file_get_contents("php://input");
     }
 
