@@ -57,6 +57,7 @@ class OptimoveMultiDBSupport extends \Piwik\Plugin
         if(isset($_GET['idsite'])){
             echo 'inside get';
             $dbConfig['dbname'] .= '_'.$_GET['idsite'];
+			$dbConfig['host'] = 'optitrackSQLSrvr_location_'.$_GET['idsite'].'.optimove.net';
         }
     }
 
