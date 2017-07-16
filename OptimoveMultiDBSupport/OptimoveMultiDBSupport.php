@@ -9,7 +9,7 @@
 *
 */
 
-namespace Piwik\Plugins\DatabaseConcatNameWithIdsite;
+namespace Piwik\Plugins\OptimoveMultiDBSupport;
 
 use Piwik\Db;
 use Piwik\Piwik;
